@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mentorship Matching Platform to connect mentors and mentees for professional growth.">
+    <title>MentorMatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+</head>
+<body>
+      
+    <main>
+    <div class="section1">
+            <div class="heading">
+                <header class="headerheading">
+                    <div class="upper-header">
+                        <div class="logo">
+                            <img src="MentorMatch.png" alt="MentorMatch Logo">
+                        </div>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                        <div class="user-options">
+                            <a href="#login">Login</a>
+                            <a href="#signup">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="lower-header">
+                            <nav>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#signup">Sign Up</a></li>
+                                    <li><a href="#login">Login</a></li>
+                                    <li><a href="#engineering-mentor">Engineering Mentor</a></li>
+                                    <li><a href="#design-mentor">Design Mentor</a></li>
+                                    <li><a href="#startup-mentors">Startup Mentors</a></li>
+                                    <li><a href="#product-managers">Product Managers</a></li>
+                                    <li><a href="#marketing-coaches">Marketing Coaches</a></li>
+                                    <li><a href="#leadership-mentors">Leadership Mentors</a></li>
+                                    <li><a href="#career-coaches">Career Coaches</a></li>
+                                    <li><a href="#top-mentors">Top Mentors</a></li>
+                                    <li><a href="#browse-members">Browse All Members</a></li>
+                                    
+                                    <!-- <li class="search-bar"> -->
+                                        <!-- <input type="text" placeholder="Search..."> -->
+                                    
+                                </ul>
+                            </nav> 
+                        </div>
+
+               </header>
+            </div> 
+
+            <div class="info">
+                <h1>Find Your Perfect Mentor or Mentee</h1>
+                <p>Join our platform to connect with experienced professionals, learn new skills, and grow your career.</p>
+                <button>Get Started</button>
+            </div>
+
+      </div> 
+    </div>  
+        <section id="home" class="fade-in">
+            <h2>Welcome to the Mentorship Matching Platform</h2>
+            <p>Find the perfect mentor or mentee to help you grow and achieve your goals.</p>
+        </section>
+
+        <section id="about" class="fade-in">
+            <h2>About Us</h2>
+            <p>Welcome to the Mentorship Matching Platform, where connections spark growth, and opportunities become limitless. Our mission is to bridge the gap between mentors and mentees, creating a collaborative space for learning, sharing, and professional development. Whether you're an experienced mentor looking to guide the next generation or a passionate mentee eager to grow, our platform is here to make meaningful matches based on skills, interests, and goals.</p>
+        </section>
+
+        <section id="why-choose-us" class="fade-in">
+            <h2>Why Choose Us?</h2>
+            <p>Tailored Matches: Find mentors or mentees that align with your aspirations and expertise.<br>
+               Easy to Use: A simple, user-friendly interface makes connecting effortless.<br>
+               Diverse Community: Be part of a vibrant network of professionals, students, and experts from various fields.<br>
+               Secure Platform: We prioritize your privacy and ensure all interactions are safe and respectful.</p>
+        </section>
+
+        <section id="vision" class="fade-in">
+            <h2>Our Vision</h2>
+            <p>We aim to empower individuals to achieve their potential through personalized mentorship. By fostering meaningful relationships, we hope to build a world where knowledge is shared, careers flourish, and communities thrive. Join us today and take the next step in your journey toward success!</p>
+        </section>
+
+        <section id="signup" class="fade-in">
+            <h2>Sign Up</h2>
+            <form action="/signup" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="role">I want to be a:</label>
+                <select id="role" name="role">
+                    <option value="mentor">Mentor</option>
+                    <option value="mentee">Mentee</option>
+                </select>
+                <label for="skills">Skills/Interests:</label>
+                <input type="text" id="skills" name="skills" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <section id="login" class="fade-in">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="fade-in">
+        <p>&copy; 2023 Mentorship Matching Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>

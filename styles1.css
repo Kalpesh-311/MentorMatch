@@ -1,0 +1,12 @@
+
+.heading {
+  
+    background-size: cover;
+    background-position: center;
+    height: 120px; /* Adjust height as needed */
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

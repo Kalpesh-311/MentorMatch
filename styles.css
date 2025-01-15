@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: #185465;
+    --secondary-color: #90b6c0;
+    --background-color: rgba(255, 255, 255, 0.7);
+    --button-color: #2575fc;
+    --text-color: #fff;
+    --form-background: rgba(255, 255, 255, 0.1);
+    --input-background: rgba(255, 255, 255, 0.2);
+    --input-border: #00d9ff;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+/* nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.search-bar {
+    margin-left: auto;
+} */
+
+
+/* Variables for colors */
+.heading {
+    /* background-image: url('1MentorMatch.png'); */
+    background-size: contain;
+    background-position: center;
+    height: 117px; 
+    /* Adjust height as needed */
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    
+    background-image: linear-gradient(to right, rgb(25, 147, 163), #185465);
+    color: #000000;
+    
+}
+
+
+    
+
+
+.section1{
+    background-size: cover;
+    height: 100%;
+    width: 100%; /* Adjust height as needed */
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    justify-content: row-wrap;
+    align-items: center;
+ 
+}
+
+.upper-header{
+    
+    display: flex;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.lower-header{
+    display: justify-between;
+    display: flex;
+    height: 40%;
+}
+
+.logo{
+    
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items:center ;
+    /* background-color: #237499; */
+    
+}
+
+.info{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* Global Styles */
+
+
+/* Header Styles */
+header {
+  
+    height: 100%;
+    padding: 0px, 13px;
+   
+     
+}
+
+/* Navigation Styles */
+/* nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+} */
+.search-bar {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items:center ;
+    
+}
+
+.user-options {
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items:center ;
+}
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* section w324yuoi=]\789+
+ihe zx h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+} */
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: var(--form-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input, form select {
+    background: var(--input-background);
+    border: 1px solid var(--input-border);
+    color: var(--text-color);
+}
+
+form button {
+    background: var(--button-color);
+    color: var(--text-color);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background: var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Animation Styles */
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Mentor Options Styles */
+.mentor-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mentor-options .mentor-card {
+    background: var(--form-background);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.mentor-options .mentor-card a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* List Styles */
+/* ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: var(--form-background);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: justify;
+} */
+
+/* Search Bar Styles */
+/* .search-bar {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    background: var(--input-background);
+
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.search-bar button {
+    background: var(--button-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
